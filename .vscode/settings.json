@@ -1,0 +1,15 @@
+{
+	"files.autoSave": "afterDelay",
+	"editor.fontSize": 16,
+	"editor.wordWrap": "on",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.codeActionsOnSave": {
+	
+	},
+	"editor.language.brackets": [
+	
+	],
+	"merge-conflict.autoNavigateNextConflict.enabled": true,
+	"eslint.codeActionsOnSave.rules": null,
+	"quokka.automaticRestart": true
+}
