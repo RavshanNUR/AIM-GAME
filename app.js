@@ -50,16 +50,11 @@ function setTime(value) {
 }
 function finishGame() {
   timeEl.parentNode.classList.add("hide");
-  board.innerHTML = `<h1>Счет: <span class='primary'>${score}</span></h1>    <h2 id ='again' class = 'again primary' style='cursor:pointer'  onclick = getElementById('again').style.color = 'red'>Занова</h2>`;
+  board.innerHTML = `<h1>Счет: <span class='primary'>${score}</span></h1>    <a id ='again' class = 'again primary' style='cursor:pointer'  onclick = 'location.reload();return false;'><h2>Занова</h2></a>`;
+  
 }
 
-const startAgain = document.querySelector(".again");
-console.log(startAgain);
-// startAgain.addEventListener("click", () => {
-//   board.style.background = "red";
-//   alert("ura");
-// });
-
+ 
 function createRandomCircle() {
   const circle = document.createElement("div");
   const size = getRandomNumber(10, 50);
